@@ -9,7 +9,7 @@ const CleanWebpackPlugin = require("clean-webpack-plugin")
 
 
 
-const BuildPath = Path.resolve(__dirname, "docs")
+const BuildPath = Path.resolve(__dirname, "public")
 
 // Custom PurgeCSS extractor for Tailwind that allows special characters in
 // class names.
